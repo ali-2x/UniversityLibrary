@@ -15,6 +15,7 @@ This project is a University Library Management System developed. The system man
 **Database**
 
 *Tables*:
+
   - Books: Stores book information including title, author, ISBN, number of copies, and location.
   * Students: Stores student information including name, gender, major, and student number.
   * Borrow: Logs all borrowing transactions including student number, book call number, borrow date, and due date.
@@ -22,7 +23,9 @@ This project is a University Library Management System developed. The system man
   * Renew: Logs the records when a student re-borrows a book.
 
 **Setup**
+
 1.) Before running the program, make sure to execute the sql files in your Oracle database to drop tables & create the necessary tables, triggers, and initial values for the Book and Student tables.
+
 * Terminal:
 @ ./group3_dbdrop.sql
 
@@ -37,8 +40,8 @@ public boolean loginDB() {
 		}
 ```
 
-
 **Usage**
+
 To run the program, simply compile and run UniversityBookshop.java. You will be prompted to select an option from the menu to perform the desired operation. Follow the on-screen instructions to complete each operation.
 
 * Search for Books: Search for a book by its ISBN to check availability and details.
