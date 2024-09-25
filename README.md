@@ -27,9 +27,10 @@ This project is a University Library Management System developed. The system man
 1.) Before running the program, make sure to execute the sql files in your Oracle database to drop tables & create the necessary tables, triggers, and initial values for the Book and Student tables.
 
 * Terminal:
-@ ./group3_dbdrop.sql
+  
+@ ./dbdrop.sql
 
-@ ./group3_dbinsert.sql
+@ ./dbinsert.sql
 
 2.) Change your login and password for Oracle Database in LibraryManager.java:
 ```
