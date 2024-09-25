@@ -55,6 +55,6 @@ With these options, the University Library manager can effectively manage the bo
 
 **Acknowledgments**
 
-This project was developed Database Management course at HKBU.
+This project was developed as part of Database Management course at HKBU.
 Special thanks to Dr. Jianliang Xu, Head & Chair Professor, for guidance and support.
 
